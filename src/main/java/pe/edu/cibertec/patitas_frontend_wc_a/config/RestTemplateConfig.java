@@ -23,7 +23,11 @@ public class RestTemplateConfig {
     @Bean
     public RestTemplate restTemplateFinanzas(RestTemplateBuilder builder) {
         return builder
+<<<<<<< HEAD
                 .rootUri("http://localhost:8082/finanzas")
+=======
+                .rootUri("http://localhost:8082/finzas")
+>>>>>>> 448703e2ed4dab9550654a382f7b1816ffe2b51a
                 .setReadTimeout(Duration.ofSeconds(30))
                 .build();
     }
@@ -31,7 +35,11 @@ public class RestTemplateConfig {
     @Bean
     public RestTemplate restTemplateReporteria(RestTemplateBuilder builder) {
         return builder
+<<<<<<< HEAD
                 .rootUri("http://localhost:8083/reporteria")
+=======
+                .rootUri("http://localhost:8083/repositorias")
+>>>>>>> 448703e2ed4dab9550654a382f7b1816ffe2b51a
                 .setReadTimeout(Duration.ofSeconds(60))
                 .build();
     }

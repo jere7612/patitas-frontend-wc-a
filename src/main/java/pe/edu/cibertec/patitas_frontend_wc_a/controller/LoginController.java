@@ -48,7 +48,10 @@ public class LoginController {
             //Invocar servicio de autenticacion
             LoginRequestDTO loginRequestDTO = new LoginRequestDTO(tipoDocumento, numeroDocumento, password);
             Mono<LoginResponseDTO> monologinResponseDTO = webClientAutenticacion.post()
+<<<<<<< HEAD
                     /////
+=======
+>>>>>>> 448703e2ed4dab9550654a382f7b1816ffe2b51a
                     .uri("/login")
                     .body(Mono.just(loginRequestDTO), LoginRequestDTO.class)
                     .retrieve()
