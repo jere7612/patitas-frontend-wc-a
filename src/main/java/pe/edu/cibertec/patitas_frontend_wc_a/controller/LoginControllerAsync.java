@@ -4,20 +4,15 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.reactive.function.client.WebClient;
 import pe.edu.cibertec.patitas_frontend_wc_a.dto.LoginRequestDTO;
 import pe.edu.cibertec.patitas_frontend_wc_a.dto.LoginResponseDTO;
-<<<<<<< HEAD
 import pe.edu.cibertec.patitas_frontend_wc_a.dto.SignOutRequestDTO;
 import pe.edu.cibertec.patitas_frontend_wc_a.dto.SignOutResponseDTO;
-=======
->>>>>>> 448703e2ed4dab9550654a382f7b1816ffe2b51a
 import reactor.core.publisher.Mono;
 
 @RestController
 @RequestMapping("/login")
-<<<<<<< HEAD
+
 @CrossOrigin(origins = "http://localhost:5174")
-=======
-@CrossOrigin(origins = "http://localhost:5173")
->>>>>>> 448703e2ed4dab9550654a382f7b1816ffe2b51a
+
 public class LoginControllerAsync {
 
     @Autowired
@@ -61,7 +56,7 @@ public class LoginControllerAsync {
         }
 
     }
-<<<<<<< HEAD
+
     @PostMapping("out-async")
     public Mono<SignOutResponseDTO> CerrarSesion(@RequestBody SignOutRequestDTO signOutRequestDTO) {
         try {
@@ -85,7 +80,5 @@ public class LoginControllerAsync {
         }
 
     }
-=======
->>>>>>> 448703e2ed4dab9550654a382f7b1816ffe2b51a
 
 }

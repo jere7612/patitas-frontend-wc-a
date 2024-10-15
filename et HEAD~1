@@ -1,0 +1,30 @@
+[33mcommit f3f0a3f84f23112c2e5c2a30f18e99f7dfa79ded[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 81c62b2 448703e
+Author: jere7612 <70173572+jere7612@users.noreply.github.com>
+Date:   Mon Oct 14 23:59:16 2024 -0500
+
+    resolviendo conflictos
+
+[33mcommit 81c62b21aea3ffa6aa95d5151798545ea6d5fd4d[m
+Author: jere7612 <70173572+jere7612@users.noreply.github.com>
+Date:   Mon Oct 14 23:55:16 2024 -0500
+
+    implementacion de t2 dto
+
+[33mcommit 448703e2ed4dab9550654a382f7b1816ffe2b51a[m
+Author: jere7612 <70173572+jere7612@users.noreply.github.com>
+Date:   Mon Oct 14 00:24:43 2024 -0500
+
+    Implementacion LoginControllerAsync
+
+[33mcommit d21ea12b88af9dec79d181cd3488d18dd7f2b940[m
+Author: jere7612 <70173572+jere7612@users.noreply.github.com>
+Date:   Sun Oct 13 19:45:53 2024 -0500
+
+    Implementacion de consumo de servicio con web client
+
+[33mcommit 99c1ea4439acbbda9bc9b6e746ee47d031bf3ea1[m
+Author: jere7612 <70173572+jere7612@users.noreply.github.com>
+Date:   Sun Oct 13 18:17:14 2024 -0500
+
+    Crga inicial de fuentes
